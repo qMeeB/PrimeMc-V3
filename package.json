@@ -1,0 +1,30 @@
+{
+  "name": "prime-mcv3",
+  "version": "3.0.0",
+  "description": "Advanced Minecraft Bot Manager with Discord Integration",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "dev": "nodemon bot.js",
+    "test": "node test.js"
+  },
+  "keywords": ["minecraft", "discord", "bot", "manager"],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "mineflayer": "^4.17.0",
+    "minecraft-protocol": "^1.44.0",
+    "protodef": "^1.15.0",
+    "sqlite3": "^5.1.6",
+    "express": "^4.18.2",
+    "dotenv": "^16.3.1",
+    "vec3": "^0.1.8"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
